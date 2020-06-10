@@ -1,0 +1,93 @@
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #003333;
+}
+
+header > div{
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#project-name{
+  font-weight: 600;
+}
+
+#title{
+  text-align: center;
+}
+
+h1{
+  font-weight: 500;
+  font-size: 2.2em;
+  margin: 40px 0 12px;
+}
+
+h2{
+  font-weight: 200;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+#chart-area{
+  display: flex;
+  justify-content: center;
+}
+
+#chart-area svg{
+  background: linear-gradient(#99ff99, grey);
+  border-radius: 15px;
+}
+
+.tooltip{
+  font-family: sans-serif;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:visited{
+  color: inherit;
+}
+
+/* Style from d3-tip.css */
+
+.tooltip {
+    position: absolute;
+    line-height: 1.3;
+    letter-spacing: 1.1;
+    padding: 12px;
+    font: 12px;
+    font-weight: 200;
+    background: rgba(3, 99, 0, 0.9);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.good{
+  font-weight: 700;
+  color: red;
+}
+
+#name{
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: -2px;
+  word-wrap: nowrap;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+}
